@@ -7,8 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'ProjectMap - Platform Project Mapping Terdepan',
-  description: 'Kelola proyek Anda dengan presisi tinggi. Alat dan jasa project mapping profesional untuk tim Anda.',
+  title: 'ProMap - Layanan Project Mapping untuk Desain Visual',
+  description: 'Layanan profesional project mapping untuk desain visual. Pemetakan struktur, timeline, dan deliverable proyek desain Anda dengan sempurna.',
   generator: 'v0.app',
   icons: {
     icon: [

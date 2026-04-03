@@ -7,27 +7,27 @@ import { Briefcase, Users, Lightbulb, TrendingUp } from 'lucide-react'
 const services = [
   {
     icon: Briefcase,
-    title: 'Konsultasi Project Mapping',
-    description: 'Tim ahli kami membantu merancang strategi project mapping yang sesuai dengan kebutuhan bisnis Anda.',
-    features: ['Analisis kebutuhan mendalam', 'Desain workflow custom', 'Best practices guidance']
+    title: 'Mapping Desain Visual',
+    description: 'Kami memetakan alur desain visual Anda mulai dari konsep, wireframe, mockup hingga final design dengan struktur yang jelas.',
+    features: ['Analisis brief desain', 'Pemetaan fase desain', 'Timeline & milestone yang terukur']
   },
   {
     icon: Users,
-    title: 'Training & Onboarding',
-    description: 'Program pelatihan komprehensif untuk memastikan tim Anda mahir menggunakan platform.',
-    features: ['Workshop interaktif', 'Sertifikasi profesional', 'Dokumentasi lengkap']
+    title: 'Koordinasi Tim Desain',
+    description: 'Layanan manajemen tim desain untuk memastikan kolaborasi yang efektif dan deliverable tepat waktu.',
+    features: ['Project briefing', 'Resource allocation', 'Progress tracking real-time']
   },
   {
     icon: Lightbulb,
-    title: 'Optimasi Proses',
-    description: 'Kami menganalisis dan mengoptimalkan proses project management Anda untuk efisiensi maksimal.',
-    features: ['Process audit', 'Improvement roadmap', 'Implementation support']
+    title: 'Optimasi Workflow Desain',
+    description: 'Kami merancang workflow design yang efisien untuk meningkatkan produktivitas dan kualitas output desain.',
+    features: ['Process improvement', 'Tool optimization', 'Quality assurance standards']
   },
   {
     icon: TrendingUp,
-    title: 'Enterprise Solutions',
-    description: 'Solusi enterprise dengan integrasi custom, dedicated support, dan SLA terjamin.',
-    features: ['Custom integration', 'Dedicated account manager', '99.9% uptime SLA']
+    title: 'Project Delivery & Reporting',
+    description: 'Manajemen lengkap dari delivery proyek dengan laporan detail dan feedback structured untuk klien.',
+    features: ['Scheduled deliverables', 'Client reporting', 'Post-project analysis']
   }
 ]
 
@@ -36,9 +36,9 @@ export function ServicesSection() {
     <section id="services" className="py-24">
       <div className="container">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl font-bold text-foreground">Layanan Profesional</h2>
+          <h2 className="text-4xl font-bold text-foreground">Layanan Kami</h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Beyond software, kami menyediakan layanan konsultasi dan dukungan untuk kesuksesan Anda
+            Solusi lengkap untuk project mapping desain visual yang terstruktur dan efisien
           </p>
         </div>
 

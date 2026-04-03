@@ -6,33 +6,33 @@ import { BarChart3, Layers, Target, Users, Zap, Settings } from 'lucide-react'
 const tools = [
   {
     icon: BarChart3,
-    title: 'Visualisasi Gantt Chart',
-    description: 'Lihat timeline proyek secara visual dengan drag-and-drop yang intuitif'
+    title: 'Timeline Visual Design',
+    description: 'Pemetaan timeline desain dengan milestone yang jelas untuk setiap fase produksi'
   },
   {
     icon: Layers,
-    title: 'Manajemen Milestone',
-    description: 'Atur dan track setiap tahapan proyek dengan detail yang akurat'
+    title: 'Manajemen Layer Proyek',
+    description: 'Organisir deliverable desain dalam struktur hirarki yang mudah dipahami'
   },
   {
     icon: Target,
-    title: 'Resource Planning',
-    description: 'Alokasikan tim dan resources dengan efisien untuk setiap task'
+    title: 'Target & Revisi',
+    description: 'Kelola feedback dan revisi desain dengan tracking yang transparan'
   },
   {
     icon: Users,
-    title: 'Kolaborasi Tim',
-    description: 'Komunikasi real-time dengan team member dan stakeholder'
+    title: 'Koordinasi Stakeholder',
+    description: 'Sinkronisasi input dari klien, tim desain, dan pihak terkait lainnya'
   },
   {
     icon: Zap,
-    title: 'Automasi Workflow',
-    description: 'Hemat waktu dengan workflow automation untuk task repetitif'
+    title: 'Feedback Management',
+    description: 'Sistem terintegrasi untuk mengumpulkan dan mengelola feedback desain'
   },
   {
     icon: Settings,
-    title: 'Custom Reporting',
-    description: 'Generate laporan detail sesuai kebutuhan stakeholder'
+    title: 'Hasil & Deliverable',
+    description: 'Dokumentasi lengkap semua aset desain dan deliverable proyek'
   }
 ]
 
@@ -41,9 +41,9 @@ export function ToolsSection() {
     <section id="features" className="py-24 bg-secondary/30">
       <div className="container">
         <div className="text-center space-y-4 mb-16">
-          <h2 className="text-4xl font-bold text-foreground">Fitur-Fitur Unggulan</h2>
+          <h2 className="text-4xl font-bold text-foreground">Fitur-Fitur ProMap</h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Semua alat yang Anda butuhkan untuk mengelola proyek kompleks dengan mudah
+            Semua yang Anda butuhkan untuk project mapping desain visual yang terstruktur
           </p>
         </div>
 

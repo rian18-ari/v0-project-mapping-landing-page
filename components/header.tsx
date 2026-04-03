@@ -12,7 +12,7 @@ export function Header() {
           <div className="w-8 h-8 rounded bg-primary flex items-center justify-center">
             <MapPin className="w-5 h-5 text-primary-foreground" />
           </div>
-          <span className="font-bold text-lg text-foreground">ProjectMap</span>
+          <span className="font-bold text-lg text-foreground">ProMap</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
@@ -22,9 +22,7 @@ export function Header() {
           <Link href="#services" className="text-sm text-foreground/70 hover:text-foreground transition">
             Layanan
           </Link>
-          <Link href="#pricing" className="text-sm text-foreground/70 hover:text-foreground transition">
-            Harga
-          </Link>
+
           <Link href="#contact" className="text-sm text-foreground/70 hover:text-foreground transition">
             Kontak
           </Link>
