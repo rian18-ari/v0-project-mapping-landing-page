@@ -2,6 +2,7 @@
 
 import { Button } from '@/components/ui/button'
 import { ArrowRight, Mail } from 'lucide-react'
+import Link from 'next/link'
 
 export function CtaSection() {
   return (
@@ -17,9 +18,9 @@ export function CtaSection() {
               Hubungi kami hari ini untuk konsultasi gratis dan lihat bagaimana ProMap dapat membantu tim desain Anda
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="https://sahl-store.myscalev.com/p/muhammad-sahl" className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
+              <Link href="https://sahl-store.myscalev.com/p/muhammad-sahl" className="bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
                 Mulai Sekarang <ArrowRight className="w-4 h-4" />
-              </a>
+              </Link>
               <Button size="lg" variant="outline" className="gap-2">
                 <Mail className="w-4 h-4" />
                 Minta Penawaran
